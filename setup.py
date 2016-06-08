@@ -14,7 +14,7 @@
 # License for the specific language governing permissions and limitations
 # under the License.
 
-from setuptools import setup, Command
+from setuptools import setup, Command, find_packages
 from contextlib import closing
 from subprocess import check_call, STDOUT
 
