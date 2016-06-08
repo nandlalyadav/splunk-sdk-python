@@ -243,4 +243,6 @@ setup(
         "Topic :: Software Development :: Libraries :: Application Frameworks",
     ],
     use_2to3=True
+    install_requires=['zope.fixers'],
+    use_2to3_fixers=['zope.fixers'])
 )
