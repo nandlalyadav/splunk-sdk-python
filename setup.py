@@ -242,4 +242,5 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
         "Topic :: Software Development :: Libraries :: Application Frameworks",
     ],
+    use_2to3=True
 )
